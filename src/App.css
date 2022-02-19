@@ -14,6 +14,10 @@
 }
 
 .App-header {
+  background-image: url("assets/halmstad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,6 +30,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Hero {
+  min-height: 100vh;
+}
+
+.Footer {
+  min-height: 100vh;
+  background-image: url("assets/enviken.jpg");
+  background-size: cover;
 }
 
 @keyframes App-logo-spin {
